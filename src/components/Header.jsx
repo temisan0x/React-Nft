@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Header.css";
+import punkLogo from '../assets/header/cryptopunk-logo.png'
 
 const Header = () => {
     return (
