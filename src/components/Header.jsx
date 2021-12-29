@@ -13,6 +13,7 @@ const Header = () => {
                 <div className="searchIconContainer">
                     <img src={searchIcon} alt="searchIcon" />
                 </div>
+                <input className="searchInput" type="text" placeholder="Collection, item or user ..."/>
             </div>
         </div>
     )
