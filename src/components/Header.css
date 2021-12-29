@@ -22,3 +22,14 @@
     border-radius:50px;
     align-items: center;
 }
+
+.searchIconContainer {
+    margin: 10px;
+}
+
+.searchInput {
+    background-color:inherit;
+    border:none;
+    width: 100%;
+    outline: none;
+}
