@@ -6,7 +6,7 @@ import Punklist from './components/Punklist';
 import Main from './components/Main';
 
 function App() {
-  const [punkListData, setpunkListData] = useState([])
+  const [punkListData, setPunkListData] = useState([])
   const [selectedPunk, setSelectedPunk] = useState(0)
 
   useEffect(() => {
