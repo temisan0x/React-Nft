@@ -85,4 +85,20 @@
     .searchIcon {
         width: 15px;
     }
+
+    .searchBar {
+        background-color: #1c1c1e;
+        height: 50px;
+        flex:1;
+        display: flex;
+        border-radius:50px;
+        align-items: center;
+        width: 300px;
+    }
+
+    .searchIconContainer {
+        margin: 10px;
+        width: 300px;
+    }
+    
 }
