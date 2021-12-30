@@ -1,28 +1,33 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import instagramLogo from '../assets/owner/instagram.png'
 import twitterLogo from '../assets/owner/twitter.png'
 import moreIcon from '../assets/owner/more.png';
 import './Main.css';
 
 
-const Main = () => {
-
+const Main = ({selectedPunk, punkListData}) => {
     const [activePunk, setActivePunk] = useState(punkListData[0])
+    
+    useEffect(() => {
+        setActivePunk(punkListData[selectedPunk])
+    }, [punkListData, selectedPunk])
 
     return ( 
         <div className="main">
             <div className="mainContent">
                 <div className="punkHighLight">
                     <div className="punkContainer">
-                        <img src="https://lh3.googleusercontent.com/9B1oTFEv4DeaW9gFwnd1ION2NzfGnC9lHfjnPNSbNkDZmID0P7Di6Y6ptZxZuf0oaWgnAKLu1eqEbdlCJSpHDFUceo2D7H9c0wK56Q" 
+                        <img src={activePunk.image_url} 
                         className='selectedPunk'
                         />
                     </div>
                 </div>
+
                 <div className="punkDetails" style={{color: 'white'}}>
                     <div className="title"> IceBoy</div>
                     <span className="itemNumber">#3</span>
                 </div>
+                
                 <div className="owner">
                     <div className="ownerImageContainer">
                         <img src="https://lh3.googleusercontent.com/9B1oTFEv4DeaW9gFwnd1ION2NzfGnC9lHfjnPNSbNkDZmID0P7Di6Y6ptZxZuf0oaWgnAKLu1eqEbdlCJSpHDFUceo2D7H9c0wK56Q" alt="ownerImageContainer" />
