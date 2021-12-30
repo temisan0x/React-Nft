@@ -7,7 +7,12 @@ const Punklist = () => {
             {
                 punkListData.map(punk => (
                     <div>
-                        
+                        <CollectionCard
+                            key={punk.token_id}
+                            id={punk.token_id}
+                            name={punk.name}
+                            traits={punk.traits}
+                        />
                     </div>
                 ))
             }
