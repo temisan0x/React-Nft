@@ -4,7 +4,7 @@
     overflow:scroll;
     margin-top:20px;
     padding-bottom:20px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid#a1a5b0;
 }
 
 .punkList::webkit-scrollbar {
