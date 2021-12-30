@@ -6,7 +6,10 @@ import './Main.css';
 
 
 const Main = () => {
-    return (
+
+    const [activePunk, setActivePunk] = useState(punkListData[0])
+
+    return ( 
         <div className="main">
             <div className="mainContent">
                 <div className="punkHighLight">

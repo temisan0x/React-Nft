@@ -24,7 +24,7 @@ function App() {
     <div className="app">
         <Header/>
         <Main/>
-        <Punklist punkListData={punkListData} setSelectedPunk={}/>
+        <Punklist punkListData={punkListData} setSelectedPunk={setSelectedPunk}/>
     </div>
   );
 }
