@@ -9,9 +9,10 @@ function App() {
         <Header/>
         <CollectionCard
           id={0}
-          name={temisan}
+          name={0}
           traits={[{'value':7}]}
-          image="https://ipfs.thirdweb.com/ipfs/bafybeigqkficum3anns36jid3dxvc4yfauyuvqjulbg43n23qxn3ce3tyu"/>
+          image="https://ipfs.thirdweb.com/ipfs/bafybeigqkficum3anns36jid3dxvc4yfauyuvqjulbg43n23qxn3ce3tyu"
+        eth="https://cwstatic.nyc3.digitaloceanspaces.com/401/WETH-Token-Logotype.jpg?v=1584532520"/>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CollectionCard = ({id, name, traits, image}) => {
+const CollectionCard = ({id, name, traits, image, eth}) => {
     return (
         <div className="collectionCard">
             <img src={image} alt="collectionImage" />
@@ -8,7 +8,7 @@ const CollectionCard = ({id, name, traits, image}) => {
             <div className="name">
                 {name}
                 <div className="id">
-                    .#{od}
+                    .#{id}
                 </div>
             </div>
             <div className="priceContainer">
