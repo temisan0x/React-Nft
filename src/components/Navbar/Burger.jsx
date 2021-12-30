@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Bars } from './NavbarELements'
+import { Bars } from './NavbarElements'
 import { RightNav } from './RightNav';
 
 const Burger = () => {

@@ -24,6 +24,7 @@ function App() {
 
   return (
     <div className="app">
+        <Navbar/>
         <Header/>
         {
           punkListData.length > 0 && (
