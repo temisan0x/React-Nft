@@ -24,4 +24,4 @@ const CollectionCard = ({id, name, traits, image}) => {
     )
 }
 
-export default CollectionCard
+export default CollectionCard;
