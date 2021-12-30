@@ -22,6 +22,12 @@
     margin-right: 20px;
 }
 
+.selectedPunk {
+    object-fit: contain;
+    max-width: min(30vw, 40vh);
+    max-height: 30vh;
+}
+
 .punkDetails {
     display: flex;
     flex-direction: column;
