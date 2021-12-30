@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import instagramLogo from '../assets/owner/instagram.png'
+import twitterLogo from '../assets/owner/instagram.png'
 
 const Main = () => {
     return (
@@ -11,6 +13,27 @@ const Main = () => {
                 </div>
                 <div className="punkDetails" style={{color: 'white'}}>
                     IceBoy
+                </div>
+                <span className="itemNumber">#3</span>
+                <div className="ownerDetails">
+                    <div className="ownerImageContainer">
+                        <img src="https://lh3.googleusercontent.com/9B1oTFEv4DeaW9gFwnd1ION2NzfGnC9lHfjnPNSbNkDZmID0P7Di6Y6ptZxZuf0oaWgnAKLu1eqEbdlCJSpHDFUceo2D7H9c0wK56Q" alt="ownerImageContainer" />
+                    </div>
+                    <div className="ownerDetails">
+                        <div className="ownerNameHandle" style={{color: 'white'}}>
+                            <div>0xb4ad07f6E4c0d0d7dE2e7F1d085Fcd76D6f2ee0a</div>
+                            <div className="ownerHandle">@heytemisan</div>
+                        </div>
+                    </div>
+                    <div className="ownerLink">
+                        <img src={instagramLogo} alt="instagramLogo" />
+                    </div>
+                    <div className="ownerLink">
+                        <img src={twitterLogo} alt="twitterLogo" />
+                    </div>
+                    <div className="ownerLink">
+                        <img src={moreInfo} alt="more" />
+                    </div>
                 </div>
             </div>
         </div>
