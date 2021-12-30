@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {
     NavMenu,
-} from './NavbarELements'
+} from './NavbarElements'
 
 export const RightNav = ({open}) => {
     return (

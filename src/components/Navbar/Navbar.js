@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Burger from './Burger'
 import {
     Nav,
-} from './NavbarELements'
+} from './NavbarElements'
 
 function Navbar() {
     return (

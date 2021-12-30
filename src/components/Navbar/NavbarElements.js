@@ -1,4 +1,4 @@
-import styled from 'styled-component';
+import styled from 'styled-components';
 
 export const Nav = styled.nav`
     z-index:1000;
