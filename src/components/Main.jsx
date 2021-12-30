@@ -7,7 +7,7 @@ import './Main.css';
 
 const Main = ({selectedPunk, punkListData}) => {
     const [activePunk, setActivePunk] = useState(punkListData[0])
-    
+
     useEffect(() => {
         setActivePunk(punkListData[selectedPunk])
     }, [punkListData, selectedPunk])
@@ -24,17 +24,17 @@ const Main = ({selectedPunk, punkListData}) => {
                 </div>
 
                 <div className="punkDetails" style={{color: 'white'}}>
-                    <div className="title"> IceBoy</div>
-                    <span className="itemNumber">#3</span>
+                    <div className="title">{activePunk.name}</div>
+                    <span className="itemNumber">.#{activePunk.token_id}</span>
                 </div>
                 
                 <div className="owner">
                     <div className="ownerImageContainer">
-                        <img src="https://lh3.googleusercontent.com/9B1oTFEv4DeaW9gFwnd1ION2NzfGnC9lHfjnPNSbNkDZmID0P7Di6Y6ptZxZuf0oaWgnAKLu1eqEbdlCJSpHDFUceo2D7H9c0wK56Q" alt="ownerImageContainer" />
+                        <img src={activePunk.owner.profile_img_url} />
                     </div>
                     <div className="ownerDetails">
                         <div className="ownerNameAndHandle" style={{color: 'white'}}>
-                            <div>0xb4ad07f6E4c0d0d7dE2e7F1d085Fcd76D6f2ee0a</div>
+                            <div>{activePunk.owner.address}</div>
                             <div className="ownerHandle">@heytemisan</div>
                         </div>
                     </div>
