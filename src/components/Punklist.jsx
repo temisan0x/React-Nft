@@ -1,7 +1,7 @@
 import React from 'react';
-import CollectionCard from './CollectionCtard'
+import CollectionCard from './CollectionCard'
 
-const Punklist = () => {
+const Punklist = ({punkListData}) => {
     return (
         <div className="punkList">
             {
@@ -12,7 +12,7 @@ const Punklist = () => {
                             id={punk.token_id}
                             name={punk.name}
                             traits={punk.traits}
-                            image={punk.image_original_url}
+                            image={punk.image_url}
                         />
                     </div>
                 ))
