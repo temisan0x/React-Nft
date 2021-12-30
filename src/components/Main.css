@@ -62,7 +62,7 @@
     border-radius: 50%;
     border-radius: 50px;
     overflow:hidden;
-    object-fit: contain;
+    object-fit: contain; 
 }
 
 .ownerImageContainer > img {
