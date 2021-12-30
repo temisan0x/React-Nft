@@ -68,3 +68,22 @@
     height:100%;
     width:100%;
 }
+
+.ownerDetails {
+    display: flex;
+    flex:1;
+    align-items:center;
+}
+
+.ownerNameAndHandle {
+    flex:1;
+}
+
+.ownerHandle {
+    color: #00ebfe;
+}
+
+.ownerLink > img {
+    height:100%;
+    width:100%;
+}
