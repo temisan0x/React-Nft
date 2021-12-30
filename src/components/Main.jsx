@@ -1,6 +1,9 @@
 import React from 'react';
 import instagramLogo from '../assets/owner/instagram.png'
-import twitterLogo from '../assets/owner/instagram.png'
+import twitterLogo from '../assets/owner/twitter.png'
+import moreIcon from '../assets/owner/more.png';
+import './Main.css';
+
 
 const Main = () => {
     return (
@@ -32,7 +35,7 @@ const Main = () => {
                         <img src={twitterLogo} alt="twitterLogo" />
                     </div>
                     <div className="ownerLink">
-                        <img src={moreInfo} alt="more" />
+                        <img src={moreIcon} alt="more" />
                     </div>
                 </div>
             </div>
