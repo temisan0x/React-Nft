@@ -1,9 +1,22 @@
 import './App.css';
 import CollectionCard from './components/CollectionCard';
 import Header from './components/Header';
-
+import {useEffect, useState} from 'react';
+import axios from 'axios';
 
 function App() {
+  const [punkListData, setpunkListData] = useState([])
+
+  useEffect(() => {
+    const getMyNfts = async()=> {
+      const openseaData = await axios.get
+      ('https://testnets-api.opensea.io/assets?asset_contrat_address=0x5620516283720Bb2bA07Ec8A6E68f1bCF85e791e&order_direction=asc'
+      ) 
+      console.log(openseaData.data.assets);
+    }
+    return getMyNfts();
+  }, [])
+
   return (
     <div className="app">
         <Header/>
