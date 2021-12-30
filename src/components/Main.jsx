@@ -24,9 +24,10 @@ const Main = ({selectedPunk, punkListData}) => {
                 </div>
 
                 <div className="punkDetails" style={{color: 'white'}}>
-                    <div className="title">{activePunk.name}</div>
-                    <span className="itemNumber">.#{activePunk.token_id}</span>
-                </div>
+                    <div className="title">{activePunk.name}
+                        <span className="itemNumber">.#{activePunk.token_id}</span>
+                    </div>
+                    
                 
                 <div className="owner">
                     <div className="ownerImageContainer">
@@ -49,6 +50,7 @@ const Main = ({selectedPunk, punkListData}) => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
