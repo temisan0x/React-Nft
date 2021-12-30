@@ -34,3 +34,37 @@
     justify-content: space-between;
     flex:0.75;
 }
+
+.title {
+    font-size:96px;
+    font-weight: 800;
+}
+
+.itemNumber {
+    color:#a1a5b0;
+    font-size: 72px;
+    align-self: center;
+}
+
+.owner {
+    display: flex;
+    margin:10px 0;
+    height: 50px;
+}
+
+.owner > div {
+    margin: 0 5px;
+}
+
+.ownerImageContainer {
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    overflow:hidden;
+    object-fit: contain;
+}
+
+.ownerImageContainer > img {
+    height:100%;
+    width:100%;
+}
