@@ -81,4 +81,8 @@
         max-width: min(20vw, 30vh);
         max-height: 20vw;
     }
+
+    .searchIcon {
+        width: 15px;
+    }
 }
