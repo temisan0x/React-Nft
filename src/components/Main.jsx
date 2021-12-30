@@ -6,12 +6,11 @@ const Main = () => {
             <div className="mainContent">
                 <div className="punkHighLight">
                     <div className="punkContainer">
-                        <img src={activePunk.image_url}
-                        alt="" />
+                        <img src="https://lh3.googleusercontent.com/9B1oTFEv4DeaW9gFwnd1ION2NzfGnC9lHfjnPNSbNkDZmID0P7Di6Y6ptZxZuf0oaWgnAKLu1eqEbdlCJSpHDFUceo2D7H9c0wK56Q" />
                     </div>
                 </div>
-                <div className="punkDetails">
-                    {activePunk.name}
+                <div className="punkDetails" style={{color: 'white'}}>
+                    IceBoy
                 </div>
             </div>
         </div>
