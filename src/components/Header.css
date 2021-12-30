@@ -89,11 +89,9 @@
     .searchBar {
         background-color: #1c1c1e;
         height: 34px;
-        flex:1;
-        display: flex;
         border-radius:50px;
         align-items: center;
-        width: 300px;
+        width: 220px;
     }
 
     .searchIconContainer {
