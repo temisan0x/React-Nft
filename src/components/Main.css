@@ -60,6 +60,7 @@
     height: 50px;
     width:50px;
     border-radius: 50%;
+    border-radius: 50px;
     overflow:hidden;
     object-fit: contain;
 }
@@ -81,6 +82,15 @@
 
 .ownerHandle {
     color: #00ebfe;
+}
+
+.ownerLink {
+    padding:12px;
+    border-radius:50px;
+    height: 50px;
+    width:50px;
+    border:1px solid #fff;
+    margin: 0 0 0 10px;
 }
 
 .ownerLink > img {
