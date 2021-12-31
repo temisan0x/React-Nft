@@ -1,5 +1,5 @@
 import './App.css';
-import Header from './components/Header';
+// import Header from './components/Header';
 import {useEffect, useState} from 'react';
 import axios from 'axios';
 import Punklist from './components/Punklist';
@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="app">
         <Navbar/>
-        <Header/>
+        {/* <Header/> */}
         {
           punkListData.length > 0 && (
             <>

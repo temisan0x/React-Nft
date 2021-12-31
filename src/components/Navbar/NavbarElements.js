@@ -33,16 +33,15 @@ export const NavMenu = styled.ul`
     @media screen and (max-width:900px) {
         align-items:center;
         position:fixed;
-        z-index:-1;
         right:0;
         top:0;
         height:100vh;
-        width:80%;
+        width:50%;
         padding-top:3.5rem;
         flex-direction:column;
         transition:0.3s ease-in-out;
         transform: ${({open})=> open ? 'translateX(0)' : 'translateX(100%)'};
-        background-color:white;
+        background-color:#1c1c1e;
     }
     li {
         padding:18px 10px;
@@ -68,7 +67,7 @@ export const NavMenu = styled.ul`
             display: flex;
             flex-direction: column;
             justify-content: center;
-            width: 100%;
+            width: 50%;
             border-bottom: 0.5px solid grey;
             padding:18px 30px;
             line-height:28px;
