@@ -40,7 +40,8 @@
 .title {
     font-size:46px;
     font-weight: 800;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 .itemNumber {
@@ -51,12 +52,24 @@
 
 .owner {
     display: flex;
-    margin:10px 0;
     height: 50px;
 }
 
 .owner > div {
     margin: 0 5px;
+}
+
+.ownerContent {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    object-fit: contain;
+}
+
+.ownerImg {
+    width: 50px;
+    border-radius: 50px;
+    height: 50px;
 }
 
 .ownerImageContainer {
@@ -85,6 +98,7 @@
 
 .ownerHandle {
     color: #00ebfe;
+    margin:15px;
 }
 
 .ownerLink {
@@ -101,7 +115,7 @@
     display: flex;
     margin: 10px 0;
     height: 50px;
-    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .ownerLink > img {
@@ -160,5 +174,9 @@
         flex-direction: column;
         margin-bottom: 20px;
         line-height: 3;
+    }
+
+    .address {
+        margin-bottom: 15px;
     }
 }

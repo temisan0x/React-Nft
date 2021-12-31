@@ -28,16 +28,16 @@ const Main = ({selectedPunk, punkListData}) => {
                         <span className="itemNumber">.#{activePunk.token_id}</span>
                     </div>
                     
+                    <div className="ownerContent">
+                            <img className='ownerImg' src={activePunk.owner.profile_img_url} />
+                            <div className="ownerHandle">@heytemisan</div>
+                    </div>
                 
                 <div className="owner">
                     <div className="ownerDetails">
                         <div className="ownerNameAndHandle" style={{color: 'white'}}>
-                        <div className="ownerImageContainer">
-                            <img src={activePunk.owner.profile_img_url} />
-                        </div>
                         <div className="row">
-                            <div>{activePunk.owner.address}</div>
-                            <div className="ownerHandle">@heytemisan</div>
+                            <div className="address">{activePunk.owner.address}</div>
                         </div>
                         </div>
                     </div>
