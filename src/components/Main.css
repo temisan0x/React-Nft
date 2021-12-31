@@ -1,6 +1,7 @@
 .main {
     max-height: 50vh;
     margin-top: 10px;
+    font-family: 'PixelOperatorMono8Regular'; 
 }
 
 .mainContent {
@@ -39,11 +40,12 @@
 .title {
     font-size:46px;
     font-weight: 800;
+    margin-top: 30px;
 }
 
 .itemNumber {
     color:#a1a5b0;
-    font-size: 72px;
+    font-size: 40px;
     align-self: center;
 }
 
@@ -97,4 +99,17 @@
 .ownerLink > img {
     height:100%;
     width:100%;
+}
+
+@media screen and (max-width:900px) {
+    .title {
+        font-size:2rem;
+        font-weight: 800;
+    }
+
+    .itemNumber {
+        color:#a1a5b0;
+        font-size: 1.5rem;
+        align-self: center;
+    }
 }
