@@ -37,7 +37,7 @@ const Main = ({selectedPunk, punkListData}) => {
                     <div className="ownerDetails">
                         <div className="ownerNameAndHandle" style={{color: 'white'}}>
                             <div className="row">
-                                <div>
+                                <div className="scroll">
                                     <div className="address">{activePunk.owner.address}</div>
                                 </div>
                             </div>

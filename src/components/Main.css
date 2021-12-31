@@ -175,9 +175,18 @@
         font-size: 0.9rem;
     }
 
+    .scroll {
+        cursor: pointer;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        margin-top: 20px;
+        width:50%;
+        border-bottom: 1px solid #a1a5b0;
+        cursor: pointer;
+    }
+
     .address {
         margin-bottom: 15px;
-        overflow: scroll;
         position: relative;
     }
 }
