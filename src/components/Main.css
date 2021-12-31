@@ -172,9 +172,12 @@
         display: flex;
         flex-direction: column;
         margin-top: 15px;
+        font-size: 0.9rem;
     }
 
     .address {
         margin-bottom: 15px;
+        overflow: scroll;
+        position: relative;
     }
 }

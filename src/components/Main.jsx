@@ -36,9 +36,11 @@ const Main = ({selectedPunk, punkListData}) => {
                 <div className="owner">
                     <div className="ownerDetails">
                         <div className="ownerNameAndHandle" style={{color: 'white'}}>
-                        <div className="row">
-                            <div className="address">{activePunk.owner.address}</div>
-                        </div>
+                            <div className="row">
+                                <div>
+                                    <div className="address">{activePunk.owner.address}</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
