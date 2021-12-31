@@ -103,13 +103,13 @@
 
 @media screen and (max-width:900px) {
     .title {
-        font-size:2rem;
+        font-size:0.9rem;
         font-weight: 800;
     }
 
     .itemNumber {
         color:#a1a5b0;
-        font-size: 1.5rem;
+        font-size: 0.8rem;
         align-self: center;
     }
 }
