@@ -52,6 +52,7 @@ export const NavMenu = styled.ul`
 
     .nav-link {
         color: #a1a5b0;
+        margin-top: 23px;
     }
 
     @media screen and (max-width:900px) {

@@ -13,7 +13,7 @@ export const RightNav = ({open}) => {
             <li><p><div class="nav-link nav-link-ltr" to="/security" href="#">Create</div></p></li>
             <li>
                 <p>
-                    <div class="nav-link nav-link-ltr" to="/instructions" href="#">
+                    <div class="nav-icon" to="/instructions" href="#">
                         <div className="headerActions">
                             <div className="themeSwitchContainer">
                                 <img src={themeSwitchIcon} alt="" />
@@ -24,7 +24,7 @@ export const RightNav = ({open}) => {
             </li>
             <li>
                 <p>
-                    <div class="nav-link nav-link-ltr" to="/resources" href="#">
+                    <div class="nav-icon" to="/resources" href="#">
                         <div className="loginButton">GET IN</div>
                     </div>
                 </p>
