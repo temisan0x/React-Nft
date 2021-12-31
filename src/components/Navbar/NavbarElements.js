@@ -21,7 +21,7 @@ export const Nav = styled.nav`
         padding:15px 0;
     }
     .logo {
-        margin:10px;
+        // margin:10px;
     }
 `;
 
