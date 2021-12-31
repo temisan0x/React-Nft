@@ -2,25 +2,33 @@ import React from 'react';
 import "../Header.css";
 import {
     NavMenu,
-} from './NavbarElements'
-import searchIcon from '../../assets/header/search.png';
+} from './NavbarElements';
+import themeSwitchIcon from '../../assets/header/theme-switch.png';
 
 export const RightNav = ({open}) => {
     return (
         <NavMenu open={open}>
-            <div className="searchBar">
-                <div className="searchIconContainer">
-                    <img src={searchIcon} alt="searchIcon" className='searchIcon'/>
-                </div>
-                <input className="searchInput" type="text" placeholder="Collection, item or user ..."/>
-            </div>
             <li><p><div class="nav-link nav-link-ltr" to="/product">Drops</div></p></li>
             <li><p><div class="nav-link nav-link-ltr" to="/prices" href="#">Marketplace</div></p></li>
             <li><p><div class="nav-link nav-link-ltr" to="/security" href="#">Create</div></p></li>
-            <li><p><div class="nav-link nav-link-ltr" to="/instructions" href="#">Institutions</div></p></li>
-            <li><p><div class="nav-link nav-link-ltr" to="/resources" href="#">Resources</div></p></li>
-            <li><p><div class="nav-link nav-link-ltr" to="/email" href="#">Email Us</div></p></li>
-            <li><button className="get-started"><div class="" to="signin" href="#">Sign in</div></button></li>
+            <li>
+                <p>
+                    <div class="nav-link nav-link-ltr" to="/instructions" href="#">
+                        <div className="headerActions">
+                            <div className="themeSwitchContainer">
+                                <img src={themeSwitchIcon} alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <div class="nav-link nav-link-ltr" to="/resources" href="#">
+                        <div className="loginButton">GET IN</div>
+                    </div>
+                </p>
+            </li>
         </NavMenu>
     )
 }

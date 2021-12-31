@@ -7,8 +7,6 @@ export const Nav = styled.nav`
     display:flex;
     justify-content:space-between;
     align-items: center;
-    padding-left:20px;
-    padding-right:20px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     background-color:inherit;
     
@@ -17,10 +15,13 @@ export const Nav = styled.nav`
         color:inherit;
     }
     .logo_header {
-        width:6rem;
+        width: 200px;
     }
     .logo {
         padding:15px 0;
+    }
+    .logo {
+        margin:10px;
     }
 `;
 
@@ -48,6 +49,11 @@ export const NavMenu = styled.ul`
         line-height:28px;
         font-size: 16px;
     }
+
+    .nav-link {
+        color: #a1a5b0;
+    }
+
     @media screen and (max-width:900px) {
         p {
             display:block;
