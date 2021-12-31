@@ -24,7 +24,7 @@ export const RightNav = ({open}) => {
             </li>
             <li>
                 <p>
-                    <div class="nav-icon" to="/resources" href="#">
+                    <div class="nav-icon2" to="/resources" href="#">
                         <div className="loginButton">GET IN</div>
                     </div>
                 </p>
