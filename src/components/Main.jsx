@@ -39,6 +39,8 @@ const Main = ({selectedPunk, punkListData}) => {
                             <div className="ownerHandle">@heytemisan</div>
                         </div>
                     </div>
+                </div>
+                <div className="owner">
                     <div className="ownerLink">
                         <img src={instagramLogo} alt="instagramLogo" />
                     </div>
@@ -49,7 +51,7 @@ const Main = ({selectedPunk, punkListData}) => {
                         <img src={moreIcon} alt="more" />
                     </div>
                 </div>
-            </div>
+                </div>
         </div>
         </div>
     )
