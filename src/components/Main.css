@@ -96,6 +96,14 @@
     margin: 0 0 0 10px;
 }
 
+
+.owner1 {
+    display: flex;
+    margin: 10px 0;
+    height: 50px;
+    padding-left: 20px;
+}
+
 .ownerLink > img {
     height:100%;
     width:100%;
@@ -137,12 +145,5 @@
         padding: 10px;
         height: 20px;
         width: 20px;
-    }
-
-    .owner1 {
-        display: flex;
-        margin: 10px 0;
-        height: 50px;
-        padding-left: 20px;
     }
 }

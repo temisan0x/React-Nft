@@ -30,17 +30,17 @@ const Main = ({selectedPunk, punkListData}) => {
                     
                 
                 <div className="owner">
-                    <div className="ownerImageContainer">
-                        <img src={activePunk.owner.profile_img_url} />
-                    </div>
                     <div className="ownerDetails">
                         <div className="ownerNameAndHandle" style={{color: 'white'}}>
-                            <div>{activePunk.owner.address}</div>
-                            <div className="ownerHandle">@heytemisan</div>
+                    <div className="ownerImageContainer">
+                        <img src={activePunk.owner.profile_img_url} />
                         </div>
-                    </div>
+                                <div>{activePunk.owner.address}</div>
+                                <div className="ownerHandle">@heytemisan</div>
+                            </div>
+                        </div>
                 </div>
-                <div className="owner">
+                <div className="owner1">
                     <div className="ownerLink">
                         <img src={instagramLogo} alt="instagramLogo" />
                     </div>
