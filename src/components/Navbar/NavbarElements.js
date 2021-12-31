@@ -10,7 +10,7 @@ export const Nav = styled.nav`
     padding-left:20px;
     padding-right:20px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-    background-color:white;
+    background-color:inherit;
     
     a {
         text-decoration:none;

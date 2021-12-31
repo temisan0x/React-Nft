@@ -1,19 +1,26 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import "../Header.css";
 import {
     NavMenu,
 } from './NavbarElements'
+import searchIcon from '../../assets/header/search.png';
 
 export const RightNav = ({open}) => {
     return (
         <NavMenu open={open}>
-            <li><p><Link class="nav-link nav-link-ltr" to="/product">Products</Link></p></li>
-            <li><p><Link class="nav-link nav-link-ltr" to="/prices" href="#">Prices</Link></p></li>
-            <li><p><Link class="nav-link nav-link-ltr" to="/security" href="#">Security</Link></p></li>
-            <li><p><Link class="nav-link nav-link-ltr" to="/instructions" href="#">Institutions</Link></p></li>
-            <li><p><Link class="nav-link nav-link-ltr" to="/resources" href="#">Resources</Link></p></li>
-            <li><p><Link class="nav-link nav-link-ltr" to="/email" href="#">Email Us</Link></p></li>
-            <li><button className="get-started"><Link class="" to="signin" href="#">Sign in</Link></button></li>
+            <div className="searchBar">
+                <div className="searchIconContainer">
+                    <img src={searchIcon} alt="searchIcon" className='searchIcon'/>
+                </div>
+                <input className="searchInput" type="text" placeholder="Collection, item or user ..."/>
+            </div>
+            <li><p><div class="nav-link nav-link-ltr" to="/product">Drops</div></p></li>
+            <li><p><div class="nav-link nav-link-ltr" to="/prices" href="#">Marketplace</div></p></li>
+            <li><p><div class="nav-link nav-link-ltr" to="/security" href="#">Create</div></p></li>
+            <li><p><div class="nav-link nav-link-ltr" to="/instructions" href="#">Institutions</div></p></li>
+            <li><p><div class="nav-link nav-link-ltr" to="/resources" href="#">Resources</div></p></li>
+            <li><p><div class="nav-link nav-link-ltr" to="/email" href="#">Email Us</div></p></li>
+            <li><button className="get-started"><div class="" to="signin" href="#">Sign in</div></button></li>
         </NavMenu>
     )
 }

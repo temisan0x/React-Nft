@@ -1,18 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Burger from './Burger'
+import Burger from './Burger';
 import {
     Nav,
 } from './NavbarElements'
-
+import Logo from "../../assets/header/cryptopunk-logo.png"
 function Navbar() {
     return (
         <>
         <Nav>
             <div className="logo">
-                <Link to="/">
-                    <img src="../../assets/owner/more.png" alt="logo" className='logo_header'/>
-                </Link>
+                <img src={Logo} alt="logo" className='logo_header'/>
             </div>
             <Burger/>
         </Nav>
