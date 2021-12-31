@@ -127,4 +127,15 @@
         font-weight: 500;
         line-height: 0.3;
     }
+
+    .loginButton {
+        background: linear-gradient(to right, #59f9b7, #66feea);
+        padding: 5px 20px;
+        border-radius: 50px;
+        color: black;
+    }
+
+    .themeSwitchContainer > img {
+        height: 15px;
+    }
 }

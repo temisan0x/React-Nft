@@ -9,6 +9,8 @@ export const Nav = styled.nav`
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     background-color:inherit;
+    font-family: 'PixelOperatorMono8Regular'; 
+    margin-bottom: 20px;
     
     a {
         text-decoration:none;
@@ -36,7 +38,7 @@ export const NavMenu = styled.ul`
         right:0;
         top:0;
         height:100vh;
-        width:50%;
+        width:100%;
         padding-top:3.5rem;
         flex-direction:column;
         transition:0.3s ease-in-out;
@@ -52,6 +54,7 @@ export const NavMenu = styled.ul`
     .nav-link {
         color: #a1a5b0;
         margin-top: 23px;
+        font-size:1rem;
     }
 
     @media screen and (max-width:900px) {
@@ -72,6 +75,9 @@ export const NavMenu = styled.ul`
             padding: 8px 30px;
             line-height:28px;
             font-size: 16px;
+            font-size: 0.8rem;
+            font-weight: 800;
+            align-items: center;
         }
     }
 `
