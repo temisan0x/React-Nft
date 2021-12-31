@@ -145,7 +145,6 @@
 
     .ownerNameAndHandle {
         flex: 1 1;
-        padding-top: 60px;
     }
     
     .punkContainer {
@@ -172,8 +171,7 @@
     .row {
         display: flex;
         flex-direction: column;
-        margin-bottom: 20px;
-        line-height: 3;
+        margin-top: 15px;
     }
 
     .address {
