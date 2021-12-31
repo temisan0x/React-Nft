@@ -32,13 +32,15 @@ const Main = ({selectedPunk, punkListData}) => {
                 <div className="owner">
                     <div className="ownerDetails">
                         <div className="ownerNameAndHandle" style={{color: 'white'}}>
-                    <div className="ownerImageContainer">
-                        <img src={activePunk.owner.profile_img_url} />
+                        <div className="ownerImageContainer">
+                            <img src={activePunk.owner.profile_img_url} />
                         </div>
-                                <div>{activePunk.owner.address}</div>
-                                <div className="ownerHandle">@heytemisan</div>
-                            </div>
+                        <div className="row">
+                            <div>{activePunk.owner.address}</div>
+                            <div className="ownerHandle">@heytemisan</div>
                         </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="owner1">
                     <div className="ownerLink">
